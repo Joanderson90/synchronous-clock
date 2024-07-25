@@ -1,0 +1,29 @@
+<main class="container">
+  <div class="input-control"></div>
+
+  <div class="clocks">
+    <div class="d-flex justify-content-between">
+      <div>
+        <div>
+          <app-time-value-form clockName="BIG_BEN"></app-time-value-form>
+          <app-drift-form clockName="BIG_BEN"></app-drift-form>
+        </div>
+        <app-display-clock [clock]="bigBen"></app-display-clock>
+      </div>
+      <div></div>
+      <div>
+        <app-time-value-form
+          clockName="SHEPHERD_GATE_CLOCK"
+        ></app-time-value-form>
+        <app-drift-form clockName="SHEPHERD_GATE_CLOCK"></app-drift-form>
+        <app-display-clock [clock]="shepherdGate"></app-display-clock>
+      </div>
+
+      <div>
+        <app-time-value-form clockName="FLORAL_CLOCK"></app-time-value-form>
+        <app-drift-form clockName="FLORAL_CLOCK"></app-drift-form>
+        <app-display-clock [clock]="floral"></app-display-clock>
+      </div>
+    </div>
+  </div>
+</main>

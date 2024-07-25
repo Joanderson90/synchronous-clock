@@ -1,0 +1,39 @@
+main {
+  padding: 1.5rem;
+
+  form {
+    label {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+
+    .icon-power {
+      cursor: pointer;
+    }
+
+    .off-sensor {
+      color: #d72631;
+    }
+
+    .on-sensor {
+      color: #05d262;
+    }
+  }
+
+  .validation {
+    border: 1px solid #cc1133 !important;
+  }
+
+  .chart {
+    .card {
+      text-align: center;
+      width: 80%;
+    }
+  }
+}

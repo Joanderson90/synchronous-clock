@@ -1,0 +1,17 @@
+<main class="container">
+  <div class="content" [style]="getBorderColor()">
+    <div>
+      <p>Clock: {{ clock?.clockName }}</p>
+    </div>
+    <div>
+      <p>Time: {{ clock?.value }}</p>
+    </div>
+    <div>
+      <p>Drift: {{ clock?.drift }}</p>
+    </div>
+
+    <div>
+      <p>Is Master: {{ clock?.isMaster ? "Yes" : "Not" }}</p>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,53 @@
+#mainNav {
+  background-color: #12a4d9;
+  border-bottom: solid 3px white;
+
+  .navbar-nav .nav-item {
+    margin-right: 2em;
+    position: relative;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .navbar-brand img {
+    height: 1.6em;
+  }
+
+  .navbar-list {
+    margin-left: 50px;
+  }
+
+  .nav-link {
+    color: #c3c3c3;
+  }
+}
+
+#page-top,
+.container-component {
+  background: #12a4d9;
+
+  span {
+    color: white;
+    flex: 123;
+  }
+}
+
+.button-nav {
+  color: white;
+}
+
+.header {
+  font-family: "Manrope";
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  #mainNav .navbar-brand {
+    flex: 5;
+  }
+}

@@ -1,0 +1,20 @@
+main {
+  padding: 1rem;
+
+  p {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 3rem;
+    border: 3px solid #56bf52;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 270px;
+    height: 270px;
+  }
+}

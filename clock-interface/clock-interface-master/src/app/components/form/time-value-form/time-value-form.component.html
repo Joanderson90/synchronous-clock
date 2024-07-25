@@ -1,0 +1,16 @@
+<form>
+  <div class="form-row">
+    <label for="titleLabel">Time</label>
+    <input
+      ngbAutofocus
+      onkeypress="return event.charCode >= 48"
+      min="1"
+      type="number"
+      id="time"
+      class="form-control"
+      [formControl]="timeForm"
+      [ngClass]="timeForm?.status == 'INVALID' ? 'validation' : ''"
+      (change)="changeTime()"
+    />
+  </div>
+</form>

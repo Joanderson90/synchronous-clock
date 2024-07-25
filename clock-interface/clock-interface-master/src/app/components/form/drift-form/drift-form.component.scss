@@ -1,0 +1,17 @@
+form {
+  label {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+    color: #12a4d9;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.validation {
+  border: 1px solid #cc1133 !important;
+}

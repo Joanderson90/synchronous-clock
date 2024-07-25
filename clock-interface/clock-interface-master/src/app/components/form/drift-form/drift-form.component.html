@@ -1,0 +1,14 @@
+<form class="mt-2">
+  <div class="form-row">
+    <label for="titleLabel">Drift</label>
+    <input
+      ngbAutofocus
+      type="number"
+      id="time"
+      class="form-control"
+      [formControl]="driftForm"
+      [ngClass]="driftForm?.status == 'INVALID' ? 'validation' : ''"
+      (change)="changeDrift()"
+    />
+  </div>
+</form>
