@@ -1,0 +1,11 @@
+version: "1"
+services:
+  server:
+    image: joanderson90/clock-api:v1
+    restart: always
+    volumes:
+      - /app
+    ports:
+      - "8080:8080"
+    network_mode: "bridge"
+
